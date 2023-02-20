@@ -17,13 +17,16 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             Details()
+
         }
     }
 }
 
 @Preview
 @Composable
-fun ComposablePreview() {
+fun Preview() {
     Details()
 }
+
+
 
